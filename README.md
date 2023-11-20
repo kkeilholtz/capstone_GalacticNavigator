@@ -33,4 +33,4 @@ Galactic Navigator is open-source and is available under the [MIT License](#).
 
 ## Contact
 
-For support or inquiries, please contact us at [kkeilholtz@student.cvtc.edu](mailto:kkeilholtz@student.cvtc.edu). [dsprinkle2@student.cvtc.edu](mailto:dsprinkle2@student.cvtc.edu). [Please Put Email Here](mailto:Your@Email.Here). [Please Put Email Here](mailto:Your@Email.Here).
+For support or inquiries, please contact us at [dsprinkle2@student.cvtc.edu](mailto:dsprinkle2@student.cvtc.edu). [kkeilholtz@student.cvtc.edu](mailto:kkeilholtz@student.cvtc.edu). [Please Put Email Here](mailto:Your@Email.Here).
