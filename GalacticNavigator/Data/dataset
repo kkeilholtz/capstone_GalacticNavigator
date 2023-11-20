@@ -1,0 +1,310 @@
+[
+    {
+      "name": "Sun",
+      "type": "Star",
+      "description": "The Sun is the star at the center of the Solar System.",
+      "position": { "x": 0, "y": 0, "z": 0 }
+    },
+    {
+      "name": "Mercury",
+      "type": "Planet",
+      "description": "Mercury is the smallest and innermost planet in the Solar System.",
+      "position": { "x": 57909176, "y": 0, "z": 0 }
+    },
+    {
+      "name": "Venus",
+      "type": "Planet",
+      "description": "Venus is the second planet from the Sun. It is named after the Roman goddess of love and beauty.",
+      "position": { "x": 108208930, "y": 0, "z": 0 }
+    },
+    {
+      "name": "Earth",
+      "type": "Planet",
+      "description": "Earth is the third planet from the Sun and the only astronomical object known to harbor life.",
+      "position": { "x": 149597870, "y": 0, "z": 0 }
+    },
+    {
+      "name": "Mars",
+      "type": "Planet",
+      "description": "Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System, being larger than only Mercury.",
+      "position": { "x": 227936640, "y": 0, "z": 0 }
+    },
+    {
+      "name": "Jupiter",
+      "type": "Planet",
+      "description": "Jupiter is the fifth planet from the Sun and the largest in the Solar System.",
+      "position": { "x": 778412010, "y": 0, "z": 0 }
+    },
+    {
+      "name": "Saturn",
+      "type": "Planet",
+      "description": "Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter.",
+      "position": { "x": 1426725400, "y": 0, "z": 0 }
+    },
+    {
+      "name": "Uranus",
+      "type": "Planet",
+      "description": "Uranus is the seventh planet from the Sun. It has the third-largest planetary radius and fourth-largest planetary mass in the Solar System.",
+      "position": { "x": 2870972200, "y": 0, "z": 0 }
+    },
+    {
+      "name": "Neptune",
+      "type": "Planet",
+      "description": "Neptune is the eighth and farthest-known Solar planet from the Sun. In the Solar System, it is the fourth-largest planet by diameter.",
+      "position": { "x": 4498252900, "y": 0, "z": 0 }
+    },
+    {
+      "name": "Pluto",
+      "type": "Dwarf Planet",
+      "description": "Pluto, minor-planet designation: 134340 Pluto, is a dwarf planet in the Kuiper belt, a ring of bodies beyond Neptune.",
+      "position": { "x": 5906440628, "y": 0, "z": 0 }
+    },
+    
+    {
+          "name": "Moon",
+          "type": "Moon",
+          "description": "The Moon is Earth's only natural satellite.",
+          "position": { "x": 149597870, "y": 384400, "z": 0 }
+        },
+        {
+          "name": "Phobos",
+          "type": "Moon",
+          "description": "Phobos is the larger and closer of the two natural satellites of Mars.",
+          "position": { "x": 227936640, "y": 9376, "z": 0 }
+        },
+        {
+          "name": "Deimos",
+          "type": "Moon",
+          "description": "Deimos is the smaller and farther of the two natural satellites of Mars.",
+          "position": { "x": 227936640, "y": 23460, "z": 0 }
+        },
+        {
+          "name": "Ganymede",
+          "type": "Moon",
+          "description": "Ganymede is the largest and most massive moon of Jupiter and in the Solar System.",
+          "position": { "x": 778412010, "y": 1070400, "z": 0 }
+        },
+        {
+          "name": "Titan",
+          "type": "Moon",
+          "description": "Titan is the largest moon of Saturn and the second-largest natural satellite in the Solar System.",
+          "position": { "x": 1426725400, "y": 1221870, "z": 0 }
+        },
+        {
+          "name": "Eris",
+          "type": "Dwarf Planet",
+          "description": "Eris is the most massive and second-largest dwarf planet known in the Solar System.",
+          "position": { "x": 10108300000, "y": 0, "z": 0 }
+        },
+        {
+          "name": "Ceres",
+          "type": "Dwarf Planet",
+          "description": "Ceres is the largest object in the asteroid belt that lies between the orbits of Mars and Jupiter.",
+          "position": { "x": 413690250, "y": 0, "z": 0 }
+        },
+        {
+          "name": "Vesta",
+          "type": "Asteroid",
+          "description": "Vesta is one of the largest objects in the asteroid belt with a mean diameter of 525 kilometers.",
+          "position": { "x": 353400000, "y": 0, "z": 0 }
+        },
+        {
+          "name": "Pallas",
+          "type": "Asteroid",
+          "description": "Pallas is a large asteroid in the asteroid belt, second in mass to Ceres.",
+          "position": { "x": 414000000, "y": 0, "z": 0 }
+        },
+        {
+          "name": "Hygiea",
+          "type": "Asteroid",
+          "description": "Hygiea is the fourth-largest asteroid in the asteroid belt, located between Mars and Jupiter.",
+          "position": { "x": 470000000, "y": 0, "z": 0 }
+        },
+         {
+              "name": "Io",
+              "type": "Moon",
+              "description": "Io is the innermost of the four Galilean moons of Jupiter.",
+              "position": { "x": 778412010, "y": 421700, "z": 0 }
+            },
+            {
+              "name": "Europa",
+              "type": "Moon",
+              "description": "Europa is the smallest of the four Galilean moons orbiting Jupiter, and the sixth-closest to the planet.",
+              "position": { "x": 778412010, "y": 671034, "z": 0 }
+            },
+            {
+              "name": "Callisto",
+              "type": "Moon",
+              "description": "Callisto is the second-largest moon of Jupiter and the third-largest moon in the Solar System.",
+              "position": { "x": 778412010, "y": 1882709, "z": 0 }
+            },
+            {
+              "name": "Mimas",
+              "type": "Moon",
+              "description": "Mimas is a moon of Saturn known for the large crater Herschel on its surface.",
+              "position": { "x": 1426725400, "y": 185539, "z": 0 }
+            },
+            {
+              "name": "Enceladus",
+              "type": "Moon",
+              "description": "Enceladus is the sixth-largest moon of Saturn, known for its icy surface and geysers ejecting water vapor.",
+              "position": { "x": 1426725400, "y": 238037, "z": 0 }
+            },
+            {
+              "name": "Tethys",
+              "type": "Moon",
+              "description": "Tethys is a mid-sized moon of Saturn about a tenth of the mass of Titan.",
+              "position": { "x": 1426725400, "y": 294619, "z": 0 }
+            },
+            {
+              "name": "Dione",
+              "type": "Moon",
+              "description": "Dione is the 15th largest moon in the Solar System and is more massive than all known moons smaller than itself combined.",
+              "position": { "x": 1426725400, "y": 377396, "z": 0 }
+            },
+            {
+              "name": "Rhea",
+              "type": "Moon",
+              "description": "Rhea is the second-largest moon of Saturn and the ninth-largest moon in the Solar System.",
+              "position": { "x": 1426725400, "y": 527108, "z": 0 }
+            },
+            {
+              "name": "Iapetus",
+              "type": "Moon",
+              "description": "Iapetus is the third-largest natural satellite of Saturn and eleventh-largest in the Solar System.",
+              "position": { "x": 1426725400, "y": 3561309, "z": 0 }
+            },
+            {
+              "name": "Charon",
+              "type": "Moon",
+              "description": "Charon is the largest of the five known moons of Pluto.",
+              "position": { "x": 5906440627, "y": 19571, "z": 0 }
+            },
+            {
+              "name": "Oberon",
+              "type": "Moon",
+              "description": "Oberon is the second-largest and second most massive of the Uranian moons, and the ninth most massive moon in the Solar System.",
+              "position": { "x": 2876679082, "y": 582600, "z": 0 }
+            },
+            {
+              "name": "Titania",
+              "type": "Moon",
+              "description": "Titania is the largest of the moons of Uranus and the eighth largest moon in the Solar System.",
+              "position": { "x": 2876679082, "y": 436300, "z": 0 }
+            },
+            {
+              "name": "Triton",
+              "type": "Moon",
+              "description": "Triton is the largest natural satellite of the planet Neptune, and the first Neptunian moon to be discovered.",
+              "position": { "x": 4498396441, "y": 354759, "z": 0 }
+            },
+            {
+              "name": "Haumea",
+              "type": "Dwarf Planet",
+              "description": "Haumea is a dwarf planet located beyond Neptune's orbit.",
+              "position": { "x": 6450000000, "y": 0, "z": 0 }
+            },
+            {
+              "name": "Makemake",
+              "type": "Dwarf Planet",
+              "description": "Makemake is a dwarf planet and perhaps the largest Kuiper belt object in the classical population.",
+              "position": { "x": 6800000000, "y": 0, "z": 0 }
+            }
+          ,
+            {
+              "name": "Ganymede",
+              "type": "Moon",
+              "description": "Ganymede is the largest and most massive moon of Jupiter and in the Solar System.",
+              "position": { "x": 778412010, "y": 1070400, "z": 0 }
+            },
+            {
+              "name": "Titan",
+              "type": "Moon",
+              "description": "Titan is the largest moon of Saturn and the second-largest natural satellite in the Solar System.",
+              "position": { "x": 1426725400, "y": 1221830, "z": 0 }
+            },
+            {
+              "name": "Miranda",
+              "type": "Moon",
+              "description": "Miranda is one of the five major moons of Uranus and has the most extreme topography of any body in the Solar System.",
+              "position": { "x": 2876679082, "y": 129900, "z": 0 }
+            },
+            {
+              "name": "Ariel",
+              "type": "Moon",
+              "description": "Ariel is the fourth-largest of the 27 known moons of Uranus.",
+              "position": { "x": 2876679082, "y": 191020, "z": 0 }
+            },
+            {
+              "name": "Umbriel",
+              "type": "Moon",
+              "description": "Umbriel is the third-largest moon of Uranus and the 10th largest moon in the Solar System.",
+              "position": { "x": 2876679082, "y": 266000, "z": 0 }
+            },
+            {
+              "name": "Eris",
+              "type": "Dwarf Planet",
+              "description": "Eris is the most massive and second-largest dwarf planet known in the Solar System.",
+              "position": { "x": 10160000000, "y": 0, "z": 0 }
+            },
+            {
+              "name": "Sedna",
+              "type": "Dwarf Planet",
+              "description": "Sedna is a large minor planet in the outer reaches of the Solar System that is not officially classified as a dwarf planet.",
+              "position": { "x": 13000000000, "y": 0, "z": 0 }
+            },
+            {
+              "name": "Ceres",
+              "type": "Dwarf Planet",
+              "description": "Ceres is the largest object in the asteroid belt that lies between the orbits of Mars and Jupiter.",
+              "position": { "x": 413700000, "y": 0, "z": 0 }
+            },
+            {
+              "name": "Pallas",
+              "type": "Asteroid",
+              "description": "Pallas is one of the largest asteroids in the asteroid belt, second only to Ceres.",
+              "position": { "x": 414000000, "y": 0, "z": 0 }
+            },
+            {
+              "name": "Vesta",
+              "type": "Asteroid",
+              "description": "Vesta is one of the largest objects in the asteroid belt with a mean diameter of 525 kilometers.",
+              "position": { "x": 353400000, "y": 0, "z": 0 }
+            },
+            {
+              "name": "Hygiea",
+              "type": "Asteroid",
+              "description": "Hygiea is the fourth-largest asteroid in the asteroid belt and is located between Mars and Jupiter.",
+              "position": { "x": 470000000, "y": 0, "z": 0 }
+            },
+            {
+              "name": "Pluto",
+              "type": "Dwarf Planet",
+              "description": "Pluto, once considered the ninth planet, is now classified as a dwarf planet in the Kuiper belt.",
+              "position": { "x": 5906440627, "y": 0, "z": 0 }
+            },
+            {
+              "name": "Eris",
+              "type": "Dwarf Planet",
+              "description": "Eris is the most massive and second-largest dwarf planet in the known Solar System.",
+              "position": { "x": 10160000000, "y": 0, "z": 0 }
+            },
+            {
+              "name": "Quaoar",
+              "type": "Dwarf Planet",
+              "description": "Quaoar is a possible dwarf planet that orbits in the Kuiper belt region of the Solar System.",
+              "position": { "x": 6000000000, "y": 0, "z": 0 }
+            },
+            {
+              "name": "Orcus",
+              "type": "Dwarf Planet",
+              "description": "Orcus is a large Kuiper belt object with a large moon, Vanth, that could qualify it as a dwarf planet.",
+              "position": { "x": 5913520000, "y": 0, "z": 0 }
+            }
+          ]
+          
+          
+      
+      
+  
+  
