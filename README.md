@@ -13,7 +13,7 @@ Galactic Navigator is an interactive web-based application designed for space en
 
 ## Installation
 
-Galactic Navigator is a web-based application and does not require any installation. Simply visit [Galactic Navigator's website](#) to start your journey through the cosmos.
+While Galactic Navigator is primarily a web-based application, we understand that some users might want to explore the cosmos offline or have a local copy for various reasons. To install Galactic Navigator locally, follow these steps: First, ensure you have Git installed on your machine. Next, open a terminal and run the command git clone https://github.com/YourUsername/GalacticNavigator.git to clone the repository. Move into the project directory using cd GalacticNavigator, and then install the necessary dependencies with npm install. Once the installation is complete, start a local development server with npm start. Finally, open your web browser and navigate to http://localhost:5163 to access Galactic Navigator locally. This local installation provides users with the flexibility to explore the cosmic journey even without an internet connection.
 
 ## Usage
 
