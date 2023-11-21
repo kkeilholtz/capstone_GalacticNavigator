@@ -19,5 +19,5 @@ RUN dotnet publish "GalacticNavigator.csproj" -c Release -o /app/publish
 # Build runtime image
 FROM base AS final
 WORKDIR /app
-COPY --from=publish /app/publish .
+COPY ["GalacticNavigator/GalacticNavigator.csproj", "GalacticNavigator/"]
 ENTRYPOINT ["dotnet", "GalacticNavigator.dll"]
