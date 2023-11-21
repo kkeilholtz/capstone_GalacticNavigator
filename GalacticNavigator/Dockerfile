@@ -9,7 +9,7 @@ COPY ["GalacticNavigator/GalacticNavigator.csproj", "./"]
 RUN dotnet restore "GalacticNavigator/GalacticNavigator.csproj"
 
 # Copy the remaining source code to the container
-COPY . .
+COPY ["GalacticNavigator/GalacticNavigator.csproj", "GalacticNavigator/"]
 
 # Build the application
 RUN dotnet build "GalacticNavigator/GalacticNavigator.csproj" -c Release -o /app/build
