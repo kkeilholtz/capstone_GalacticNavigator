@@ -21,3 +21,9 @@ FROM base AS final
 WORKDIR /app
 COPY ["GalacticNavigator/GalacticNavigator.csproj", "GalacticNavigator/"]
 ENTRYPOINT ["dotnet", "GalacticNavigator.dll"]
+
+# Install .NET SDK
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends \
+    apt-transport-https \
+    dotnet-sdk-3.1
