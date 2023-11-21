@@ -1,33 +1,26 @@
-# Use the official Debian-based image for .NET
-FROM mcr.microsoft.com/dotnet/sdk:3.1
-
-# Set the working directory to /src
-WORKDIR /src
-
-# Copy the project file and restore any dependencies (if applicable)
-COPY ["GalacticNavigator/GalacticNavigator.csproj", "./"]
-RUN dotnet restore "GalacticNavigator/GalacticNavigator.csproj"
-
-# Restore NuGet packages
-RUN dotnet restore
-
-# Copy the remaining source code to the container
-COPY ["GalacticNavigator/GalacticNavigator.csproj", "GalacticNavigator/"]
-
-# Build the application
-RUN dotnet build "GalacticNavigator/GalacticNavigator.csproj" -c Release -o /app/build
-
-# Set the entry point for your application
-ENTRYPOINT ["dotnet", "run"]
-
-# Publish the application
-RUN dotnet publish "GalacticNavigator/GalacticNavigator.csproj" -c Release -o /app/publish
-
-# Set the working directory to /app
-WORKDIR /app/publish
-
-# Expose the application's port (change to your application's port if needed)
+        # Use the official image as a parent image
+FROM mcr.microsoft.com/dotnet/aspnet:7.0 AS base
+WORKDIR /app
 EXPOSE 80
+EXPOSE 443
 
-# Define the entry point for the application
-CMD ["dotnet", "GalacticNavigator.dll"]
+# Use SDK image to build the application
+FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
+WORKDIR /src
+COPY ["GalacticNavigator.csproj", "./"]
+RUN dotnet restore "GalacticNavigator.csproj"
+COPY . .
+WORKDIR "/src/."
+RUN dotnet build "GalacticNavigator.csproj" -c Release -o /app/build
+
+FROM build AS publish
+RUN dotnet publish "GalacticNavigator.csproj" -c Release -o /app/publish
+
+# Build runtime image
+FROM base AS final
+WORKDIR /app
+COPY ["GalacticNavigator/GalacticNavigator.csproj", "GalacticNavigator/"]
+ENTRYPOINT ["dotnet", "GalacticNavigator.dll"]
+
+# Install .NET SDK
+RUN apt-get install -y --no-install-recommends dotnet-sdk-3.1
