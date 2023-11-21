@@ -8,11 +8,17 @@ WORKDIR /src
 COPY ["GalacticNavigator/GalacticNavigator.csproj", "./"]
 RUN dotnet restore "GalacticNavigator/GalacticNavigator.csproj"
 
+# Restore NuGet packages
+RUN dotnet restore
+
 # Copy the remaining source code to the container
 COPY ["GalacticNavigator/GalacticNavigator.csproj", "GalacticNavigator/"]
 
 # Build the application
 RUN dotnet build "GalacticNavigator/GalacticNavigator.csproj" -c Release -o /app/build
+
+# Set the entry point for your application
+ENTRYPOINT ["dotnet", "run"]
 
 # Publish the application
 RUN dotnet publish "GalacticNavigator/GalacticNavigator.csproj" -c Release -o /app/publish
